@@ -34,10 +34,6 @@ theme_config:
   show_link_previews: true # show preview cards when hovering internal post links
   # options for "home" page
   home:
-    title_projects: Portfolio
-    title_misc_list: Details
-    title_blog: Team
-    title_old_projects: Old Projects
 
 soopr:
   publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
