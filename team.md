@@ -1,3 +1,9 @@
+---
+layout: default
+title: Team
+permalink: /team/
+---
+
 # Meet the Team
 
 ## ECE Team
