@@ -1,8 +1,8 @@
 ---
 layout: home
-title: Senior Design Project
+title: Group 6 Senior Design
 ---
 
-# Senior Design Project
+# Group #6 Senior Design Project Website
 
 Welcome to our project website. Here you will find documentation, updates, and deliverables for our Senior Design project.
