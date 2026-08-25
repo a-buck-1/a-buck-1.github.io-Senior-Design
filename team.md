@@ -68,6 +68,7 @@ permalink: /team/
     <img src="{{ '/assets/images/team/member_1.png' | relative_url }}" alt="Team Member Name" class="team-photo">
     <p class="member-name">Alex Buckwalter</p>
     <p class="member-role">Computer Engineering</p>
+    <p class="member-role">Anderson, SC</p>
   </div>
 
   <!-- Member 2 -->
@@ -75,6 +76,7 @@ permalink: /team/
     <img src="{{ '/assets/images/team/member_2.png' | relative_url }}" alt="Team Member Name" class="team-photo">
     <p class="member-name">Christopher Green</p>
     <p class="member-role">Electrical Engineering</p>
+    <p class="member-role"></p>
   </div>
 
   <!-- Member 3 -->
@@ -82,6 +84,7 @@ permalink: /team/
     <img src="{{ '/assets/images/team/member_3.png' | relative_url }}" alt="Team Member Name" class="team-photo">
     <p class="member-name">Wyatt May</p>
     <p class="member-role">Electrical Engineering</p>
+    <p class="member-role">Grand Bay, AL</p>
   </div>
 
 </div>
