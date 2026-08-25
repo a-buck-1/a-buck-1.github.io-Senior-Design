@@ -96,27 +96,27 @@ permalink: /team/
   <div class="team-member">
     <img src="{{ '/assets/images/team/member_1.png' | relative_url }}" alt="Team Member Name" class="team-photo">
     <p class="member-name">Name</p>
-    <p class="member-role">Team Role / Specific Responsibility</p>
+    <p class="member-role"></p>
   </div>
 
   <!-- Member 2 -->
   <div class="team-member">
     <img src="{{ '/assets/images/team/member_2.png' | relative_url }}" alt="Team Member Name" class="team-photo">
     <p class="member-name">Name</p>
-    <p class="member-role">Team Role / Specific Responsibility</p>
+    <p class="member-role"></p>
   </div>
 
   <!-- Member 3 -->
   <div class="team-member">
     <img src="{{ '/assets/images/team/member_3.png' | relative_url }}" alt="Team Member Name" class="team-photo">
     <p class="member-name">Name</p>
-    <p class="member-role">Team Role / Specific Responsibility</p>
+    <p class="member-role"></p>
   </div>
     
   <div class="team-member">
     <img src="{{ '/assets/images/team/member_3.png' | relative_url }}" alt="Team Member Name" class="team-photo">
     <p class="member-name">Name</p>
-    <p class="member-role">Team Role / Specific Responsibility</p>
+    <p class="member-role"></p>
   </div>
 
 </div>
