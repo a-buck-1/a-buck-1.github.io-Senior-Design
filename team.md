@@ -66,6 +66,32 @@ permalink: /team/
   <!-- Member 1 -->
   <div class="team-member">
     <img src="{{ '/assets/images/team/member_1.png' | relative_url }}" alt="Team Member Name" class="team-photo">
+    <p class="member-name">Alex Buckwalter</p>
+    <p class="member-role">Computer Engineering</p>
+  </div>
+
+  <!-- Member 2 -->
+  <div class="team-member">
+    <img src="{{ '/assets/images/team/member_2.png' | relative_url }}" alt="Team Member Name" class="team-photo">
+    <p class="member-name">Christopher Green</p>
+    <p class="member-role">Electrical Engineering</p>
+  </div>
+
+  <!-- Member 3 -->
+  <div class="team-member">
+    <img src="{{ '/assets/images/team/member_3.png' | relative_url }}" alt="Team Member Name" class="team-photo">
+    <p class="member-name">Wyatt May</p>
+    <p class="member-role">Electrical Engineering</p>
+  </div>
+
+</div>
+
+### ME Team
+<div class="team-grid">
+
+  <!-- Member 1 -->
+  <div class="team-member">
+    <img src="{{ '/assets/images/team/member_1.png' | relative_url }}" alt="Team Member Name" class="team-photo">
     <p class="member-name">Name</p>
     <p class="member-role">Team Role / Specific Responsibility</p>
   </div>
@@ -83,9 +109,12 @@ permalink: /team/
     <p class="member-name">Name</p>
     <p class="member-role">Team Role / Specific Responsibility</p>
   </div>
+    
+  <div class="team-member">
+    <img src="{{ '/assets/images/team/member_3.png' | relative_url }}" alt="Team Member Name" class="team-photo">
+    <p class="member-name">Name</p>
+    <p class="member-role">Team Role / Specific Responsibility</p>
+  </div>
 
 </div>
-
-### ME Team
-
 <!-- Copy the <div class="team-grid">...</div> block from above for the ME team -->
