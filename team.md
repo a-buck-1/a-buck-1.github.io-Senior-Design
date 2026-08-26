@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Team
+title: Meet the Team
 permalink: /team/
 ---
-
-# Meet the Team
 
 ## Electrical & Computer Engineering Team
 
