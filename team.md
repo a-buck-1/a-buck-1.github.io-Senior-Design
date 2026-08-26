@@ -6,7 +6,7 @@ permalink: /team/
 
 # Meet the Team
 
-## ECE Team
+## Electrical & Computer Engineering Team
 
 <style>
   .team-list {
