@@ -73,11 +73,11 @@ permalink: /team/
 
   <!-- Member 1 -->
   <div class="team-card">
-    <img src="{{ '/assets/images/team/member_1.png' | relative_url }}" alt="Member Name" class="team-photo">
+    <img src="{{ '/assets/images/team/member_1.png' | relative_url }}" alt="Alex Buckwalter" class="team-photo">
     <div class="team-info">
-      <h3 class="team-name">Alex Buck</h3>
-      <p class="team-role">Lead Systems Engineer</p>
-      <p class="team-bio">Responsible for overall system integration, power subsystem architecture, and GitHub Pages documentation management.</p>
+      <h3 class="team-name">Alex Buckwalter</h3>
+      <p class="team-role">Computer Engineering</p>
+      <p class="team-bio">Insert Bio Here</p>
     </div>
   </div>
 
@@ -85,26 +85,61 @@ permalink: /team/
   <div class="team-card">
     <img src="{{ '/assets/images/team/member_2.png' | relative_url }}" alt="Member Name" class="team-photo">
     <div class="team-info">
-      <h3 class="team-name">Jane Doe</h3>
-      <p class="team-role">Embedded Firmware Engineer</p>
-      <p class="team-bio">Focusing on micro-controller programming, sensor communication over I2C/SPI, and telemetry data collection.</p>
+      <h3 class="team-name">Christopher Green</h3>
+      <p class="team-role">Electrical Engineering</p>
+      <p class="team-bio">Insert Bio Here</p>
+    </div>
+  </div>
+  <!-- Member 4 -->
+<div class="team-card">
+    <img src="{{ '/assets/images/team/member_2.png' | relative_url }}" alt="Member Name" class="team-photo">
+    <div class="team-info">
+      <h3 class="team-name">Wyatt May</h3>
+      <p class="team-role">Electrical Engineering</p>
+      <p class="team-bio">Insert Bio Here</p>
     </div>
   </div>
 
 </div>
 
-## ME Team
+## Mechanical Engineering Team
 
 <div class="team-list">
 
-  <!-- Member 3 -->
+  <!-- Mech E members -->
   <div class="team-card">
     <img src="{{ '/assets/images/team/member_3.png' | relative_url }}" alt="Member Name" class="team-photo">
     <div class="team-info">
-      <h3 class="team-name">John Smith</h3>
-      <p class="team-role">Chassis & CAD Lead</p>
-      <p class="team-bio">Handling CAD modeling, FEA stress simulations, enclosure fabrication, and thermal management.</p>
+      <h3 class="team-name">Claire Griffin</h3>
+        <p class="team-role">Team Leader</p>
     </div>
   </div>
+
+<div class="team-card">
+    <img src="{{ '/assets/images/team/member_3.png' | relative_url }}" alt="Member Name" class="team-photo">
+    <div class="team-info">
+      <h3 class="team-name">CJ Boice</h3>
+    </div>
+  </div>
+  
+<div class="team-card">
+    <img src="{{ '/assets/images/team/member_3.png' | relative_url }}" alt="Member Name" class="team-photo">
+    <div class="team-info">
+      <h3 class="team-name">Elijah Scarber</h3>
+    </div>
+  </div>
+
+<div class="team-card">
+    <img src="{{ '/assets/images/team/member_3.png' | relative_url }}" alt="Member Name" class="team-photo">
+    <div class="team-info">
+      <h3 class="team-name">Braeden Bailitz</h3>
+    </div>
+  </div>
+
+
+
+
+
+  
 
 </div>
