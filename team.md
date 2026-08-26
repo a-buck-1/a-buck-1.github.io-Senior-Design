@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Team
 permalink: /team/
 ---
@@ -8,116 +8,103 @@ permalink: /team/
 
 ## ECE Team
 
-<!-- Define the grid and styling -->
 <style>
-  /* Base grid: 1 column for small screens */
-  .team-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1.5rem; /* Space between members */
+  .team-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
     margin-top: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
   }
 
-  /* Medium screens and up (Desktops/Tablets): 3 columns */
-  @media (min-width: 600px) {
-    .team-grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
+  .team-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.25rem;
+    border: 1px dashed var(--dashed);
+    border-radius: 6px;
+    background-color: var(--background);
   }
 
-  /* Styling for each member cell */
-  .team-member {
-    text-align: center;
-    border: 1px dashed var(--dashed); /* Uses theme dashed line color */
-    padding: 1rem;
-    border-radius: 4px;
-    background-color: var(--background); /* Uses theme background */
-  }
-
-  /* Headshot styling */
   .team-photo {
-    width: 100px;
-    height: 100px;
-    object-fit: cover; /* Ensures image isn't stretched */
-    border-radius: 50%; /* Makes headshot circular */
-    margin-bottom: 0.75rem;
+    width: 110px;
+    height: 110px;
+    min-width: 110px; /* Prevents the image from shrinking */
+    object-fit: cover;
+    border-radius: 50%;
     border: 2px solid var(--dashed);
   }
 
-  /* Text inside the cell */
-  .member-name {
-    margin-top: 0;
-    margin-bottom: 0.25rem;
-    font-size: 1.1rem;
+  .team-info {
+    flex: 1;
+  }
+
+  .team-name {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.2rem;
     font-weight: bold;
   }
 
-  .member-role {
+  .team-role {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-muted);
+  }
+
+  .team-bio {
     margin: 0;
     font-size: 0.9rem;
-    color: var(--text-muted); /* Softer text color */
+    line-height: 1.4;
+  }
+
+  /* Responsive: stack image on top for very narrow screens */
+  @media (max-width: 500px) {
+    .team-card {
+      flex-direction: column;
+      text-align: center;
+    }
   }
 </style>
 
-<!-- ECE TEAM GRID -->
-<div class="team-grid">
+<div class="team-list">
 
   <!-- Member 1 -->
-  <div class="team-member">
-    <img src="{{ '/assets/images/team/member_1.png' | relative_url }}" alt="Alex Buckwalter" class="team-photo">
-    <p class="member-name">Alex Buckwalter</p>
-    <p class="member-role">Computer Engineering</p>
-    <p class="member-role">Anderson, SC</p>
+  <div class="team-card">
+    <img src="{{ '/assets/images/team/member_1.png' | relative_url }}" alt="Member Name" class="team-photo">
+    <div class="team-info">
+      <h3 class="team-name">Alex Buck</h3>
+      <p class="team-role">Lead Systems Engineer</p>
+      <p class="team-bio">Responsible for overall system integration, power subsystem architecture, and GitHub Pages documentation management.</p>
+    </div>
   </div>
 
   <!-- Member 2 -->
-  <div class="team-member">
-    <img src="{{ '/assets/images/team/member_2.png' | relative_url }}" alt="Christopher Green" class="team-photo">
-    <p class="member-name">Christopher Green</p>
-    <p class="member-role">Electrical Engineering</p>
-    <p class="member-role"></p>
-  </div>
-
-  <!-- Member 3 -->
-  <div class="team-member">
-    <img src="{{ '/assets/images/team/member_3.png' | relative_url }}" alt="Wyatt May" class="team-photo">
-    <p class="member-name">Wyatt May</p>
-    <p class="member-role">Electrical Engineering</p>
-    <p class="member-role">Grand Bay, AL</p>
+  <div class="team-card">
+    <img src="{{ '/assets/images/team/member_2.png' | relative_url }}" alt="Member Name" class="team-photo">
+    <div class="team-info">
+      <h3 class="team-name">Jane Doe</h3>
+      <p class="team-role">Embedded Firmware Engineer</p>
+      <p class="team-bio">Focusing on micro-controller programming, sensor communication over I2C/SPI, and telemetry data collection.</p>
+    </div>
   </div>
 
 </div>
 
-### ME Team
-<div class="team-grid">
+## ME Team
 
-  <!-- Member 1 -->
-  <div class="team-member">
-    <img src="{{ '/assets/images/team/member_1.png' | relative_url }}" alt="Team Member Name" class="team-photo">
-    <p class="member-name">Name</p>
-    <p class="member-role"></p>
-  </div>
-
-  <!-- Member 2 -->
-  <div class="team-member">
-    <img src="{{ '/assets/images/team/member_2.png' | relative_url }}" alt="Team Member Name" class="team-photo">
-    <p class="member-name">Name</p>
-    <p class="member-role"></p>
-  </div>
+<div class="team-list">
 
   <!-- Member 3 -->
-  <div class="team-member">
-    <img src="{{ '/assets/images/team/member_3.png' | relative_url }}" alt="Team Member Name" class="team-photo">
-    <p class="member-name">Name</p>
-    <p class="member-role"></p>
-  </div>
-    
-  <div class="team-member">
-    <img src="{{ '/assets/images/team/member_3.png' | relative_url }}" alt="Team Member Name" class="team-photo">
-    <p class="member-name">Name</p>
-    <p class="member-role"></p>
+  <div class="team-card">
+    <img src="{{ '/assets/images/team/member_3.png' | relative_url }}" alt="Member Name" class="team-photo">
+    <div class="team-info">
+      <h3 class="team-name">John Smith</h3>
+      <p class="team-role">Chassis & CAD Lead</p>
+      <p class="team-bio">Handling CAD modeling, FEA stress simulations, enclosure fabrication, and thermal management.</p>
+    </div>
   </div>
 
 </div>
-<!-- Copy the <div class="team-grid">...</div> block from above for the ME team -->
