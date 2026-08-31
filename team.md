@@ -75,7 +75,7 @@ permalink: /team/
     <div class="team-info">
       <h3 class="team-name">Alex Buckwalter</h3>
       <p class="team-role">Computer Engineering</p>
-      <p class="team-bio">Insert Bio Here</p>
+      <p class="team-bio">Hello my name is Alex, I’m from Anderson, South Carolina. I am interested in cybersecurity and UAS and how they are used in defense.</p>
     </div>
   </div>
 
