@@ -94,7 +94,7 @@ permalink: /team/
     <div class="team-info">
       <h3 class="team-name">Wyatt May</h3>
       <p class="team-role">Electrical Engineering</p>
-      <p class="team-bio">Hello my name is Wyatt, born and raised in Grand Bay, Alabama. I am interested in how technology such as communication systems, drones, and other devices can be used to better augment the warfighters in the field. </p>
+      <p class="team-bio">Hello my name is Wyatt, born and raised in Grand Bay, Alabama. I am interested in how technology such as communication systems, drones, and other devices can be used to better augment warfighters in the field. </p>
     </div>
   </div>
 
