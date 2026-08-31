@@ -88,13 +88,13 @@ permalink: /team/
       <p class="team-bio">Insert Bio Here</p>
     </div>
   </div>
-  <!-- Member 4 -->
+  <!-- Member 3 -->
 <div class="team-card">
-    <img src="{{ '/assets/images/team/member_2.png' | relative_url }}" alt="Member Name" class="team-photo">
+    <img src="{{ '/assets/images/team/member_3.png' | relative_url }}" alt="Member Name" class="team-photo">
     <div class="team-info">
       <h3 class="team-name">Wyatt May</h3>
       <p class="team-role">Electrical Engineering</p>
-      <p class="team-bio">Insert Bio Here</p>
+      <p class="team-bio">Hello my name is Wyatt, born and raised in Grand Bay, Alabama. I am interested in how technology such as communication systems, drones, and other devices can be used to better augment the warfighters in the field. </p>
     </div>
   </div>
 
