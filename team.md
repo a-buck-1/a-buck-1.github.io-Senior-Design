@@ -85,7 +85,7 @@ permalink: /team/
     <div class="team-info">
       <h3 class="team-name">Christopher Green</h3>
       <p class="team-role">Electrical Engineering</p>
-      <p class="team-bio">Insert Bio Here</p>
+      <p class="team-bio">Hello my name is Christopher, I am from Marietta, Georgia. I am interested in the passive and active detection of UAS systems using electromagnetism.</p>
     </div>
   </div>
   <!-- Member 3 -->
