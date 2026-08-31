@@ -71,7 +71,7 @@ permalink: /team/
 
   <!-- Member 1 -->
   <div class="team-card">
-    <img src="{{ '/assets/images/team/member_1.png' | relative_url }}" alt="Alex Buckwalter" class="team-photo">
+    <img src="{{ '/assets/images/team/alex.jpg' | relative_url }}" alt="Alex Buckwalter" class="team-photo">
     <div class="team-info">
       <h3 class="team-name">Alex Buckwalter</h3>
       <p class="team-role">Computer Engineering</p>
@@ -81,7 +81,7 @@ permalink: /team/
 
   <!-- Member 2 -->
   <div class="team-card">
-    <img src="{{ '/assets/images/team/member_2.png' | relative_url }}" alt="Member Name" class="team-photo">
+    <img src="{{ '/assets/images/team/chris.jpg' | relative_url }}" alt="Member Name" class="team-photo">
     <div class="team-info">
       <h3 class="team-name">Christopher Green</h3>
       <p class="team-role">Electrical Engineering</p>
@@ -90,7 +90,7 @@ permalink: /team/
   </div>
   <!-- Member 3 -->
 <div class="team-card">
-    <img src="{{ '/assets/images/team/member_3.png' | relative_url }}" alt="Member Name" class="team-photo">
+    <img src="{{ '/assets/images/team/wyatt.jpg' | relative_url }}" alt="Member Name" class="team-photo">
     <div class="team-info">
       <h3 class="team-name">Wyatt May</h3>
       <p class="team-role">Electrical Engineering</p>
@@ -106,7 +106,7 @@ permalink: /team/
 
   <!-- Mech E members -->
   <div class="team-card">
-    <img src="{{ '/assets/images/team/member_3.png' | relative_url }}" alt="Member Name" class="team-photo">
+    <img src="{{ '/assets/images/team/claire.jpg' | relative_url }}" alt="Member Name" class="team-photo">
     <div class="team-info">
       <h3 class="team-name">Claire Griffin</h3>
         <p class="team-role">Team Leader</p>
@@ -114,21 +114,21 @@ permalink: /team/
   </div>
 
 <div class="team-card">
-    <img src="{{ '/assets/images/team/member_3.png' | relative_url }}" alt="Member Name" class="team-photo">
+    <img src="{{ '/assets/images/team/cj.jpg' | relative_url }}" alt="Member Name" class="team-photo">
     <div class="team-info">
       <h3 class="team-name">CJ Boice</h3>
     </div>
   </div>
   
 <div class="team-card">
-    <img src="{{ '/assets/images/team/member_3.png' | relative_url }}" alt="Member Name" class="team-photo">
+    <img src="{{ '/assets/images/team/elijah.jpg' | relative_url }}" alt="Member Name" class="team-photo">
     <div class="team-info">
       <h3 class="team-name">Elijah Scarber</h3>
     </div>
   </div>
 
 <div class="team-card">
-    <img src="{{ '/assets/images/team/member_3.png' | relative_url }}" alt="Member Name" class="team-photo">
+    <img src="{{ '/assets/images/team/braeden.jpg' | relative_url }}" alt="Member Name" class="team-photo">
     <div class="team-info">
       <h3 class="team-name">Braeden Bailitz</h3>
     </div>
