@@ -12,7 +12,7 @@ permalink: /notebook/
 
 ### Gantt Chart
 <img src="{{ '/assets/images/IMG_0088.png' | relative_url }}" alt="Gantt Chart">
- [Gantt Chart Link]([https://duckduckgo.com](https://tigermailauburn-my.sharepoint.com/:x:/g/personal/cag0127_auburn_edu/IQCYB2yYJQ8HQa81emNJHGuyAaA0Wkt2RqYh4C8cU_v1BLE?e=Xc0r9d))
+ [Gantt Chart Link](https://tigermailauburn-my.sharepoint.com/:x:/g/personal/cag0127_auburn_edu/IQCYB2yYJQ8HQa81emNJHGuyAaA0Wkt2RqYh4C8cU_v1BLE?e=Xc0r9d)
 
 
 
