@@ -9,3 +9,7 @@ permalink: /notebook/
 ### Description of the project
 
 * Utilizing a drone-grade camera, using commercial target tracking algorithms, developing a basic moving target tracking and terminal engagement "leading function" on an SBC. Integrating the camera and SBC onto a small commercial UAS so it is providing steer-to-commands to the autopilot and conducting a series of "intercept" experiments showing how the interceptor drone can detect, calculate lead, and command successful terminal intercept.
+
+### Gantt Chart
+<img src="{{ '/assets/images/gantt.jpg' | relative_url }}" alt="Gantt Chart">
+
